@@ -1,0 +1,1 @@
+cmd_/home/mcuevas/deviceDrivers/vt5_ALU_simulation/fifthModule.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/mcuevas/deviceDrivers/vt5_ALU_simulation/fifthModule.ko /home/mcuevas/deviceDrivers/vt5_ALU_simulation/fifthModule.o /home/mcuevas/deviceDrivers/vt5_ALU_simulation/fifthModule.mod.o
