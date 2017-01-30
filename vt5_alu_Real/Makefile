@@ -12,6 +12,6 @@ clean:
 else
 
 $(info Building with KERNELRELEASE = ${KERNELRELEASE})
-obj-m := module2.o
+obj-m := simMod2.o
 
 endif

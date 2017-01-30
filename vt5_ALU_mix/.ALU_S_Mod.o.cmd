@@ -1,11 +1,20 @@
-cmd_/home/mcuevas/deviceDrivers/vt2/module2.o := gcc -Wp,-MD,/home/mcuevas/deviceDrivers/vt2/.module2.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/5/include  -I./arch/x86/include -Iarch/x86/include/generated/uapi -Iarch/x86/include/generated  -Iinclude -I./arch/x86/include/uapi -Iarch/x86/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -D__KERNEL__ -fno-pie -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-pie -no-pie -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_FXSAVEQ=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_CRC32=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -fno-delete-null-pointer-checks -Wno-maybe-uninitialized -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(module2)"  -D"KBUILD_MODNAME=KBUILD_STR(module2)" -c -o /home/mcuevas/deviceDrivers/vt2/.tmp_module2.o /home/mcuevas/deviceDrivers/vt2/module2.c
+cmd_/home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.o := gcc -Wp,-MD,/home/mcuevas/Linux_device_drivers/vt5_ALU_mix/.ALU_S_Mod.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/5/include  -I./arch/x86/include -Iarch/x86/include/generated/uapi -Iarch/x86/include/generated  -Iinclude -I./arch/x86/include/uapi -Iarch/x86/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -D__KERNEL__ -fno-pie -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-pie -no-pie -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_FXSAVEQ=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_CRC32=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -fno-delete-null-pointer-checks -Wno-maybe-uninitialized -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(ALU_S_Mod)"  -D"KBUILD_MODNAME=KBUILD_STR(ALU_S_Mod)" -c -o /home/mcuevas/Linux_device_drivers/vt5_ALU_mix/.tmp_ALU_S_Mod.o /home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.c
 
-source_/home/mcuevas/deviceDrivers/vt2/module2.o := /home/mcuevas/deviceDrivers/vt2/module2.c
+source_/home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.o := /home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.c
 
-deps_/home/mcuevas/deviceDrivers/vt2/module2.o := \
-  include/linux/init.h \
-    $(wildcard include/config/broken/rodata.h) \
-    $(wildcard include/config/lto.h) \
+deps_/home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.o := \
+    $(wildcard include/config/of.h) \
+  include/linux/kernel.h \
+    $(wildcard include/config/lbdaf.h) \
+    $(wildcard include/config/preempt/voluntary.h) \
+    $(wildcard include/config/debug/atomic/sleep.h) \
+    $(wildcard include/config/mmu.h) \
+    $(wildcard include/config/prove/locking.h) \
+    $(wildcard include/config/panic/timeout.h) \
+    $(wildcard include/config/tracing.h) \
+    $(wildcard include/config/ftrace/mcount/record.h) \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+  include/linux/linkage.h \
   include/linux/compiler.h \
     $(wildcard include/config/sparse/rcu/pointer.h) \
     $(wildcard include/config/trace/branch/profiling.h) \
@@ -35,53 +44,25 @@ deps_/home/mcuevas/deviceDrivers/vt2/module2.o := \
     $(wildcard include/config/x86/32.h) \
   arch/x86/include/uapi/asm/posix_types_64.h \
   include/uapi/asm-generic/posix_types.h \
-  include/linux/types.h \
-    $(wildcard include/config/have/uid16.h) \
-    $(wildcard include/config/uid16.h) \
-    $(wildcard include/config/lbdaf.h) \
-    $(wildcard include/config/arch/dma/addr/t/64bit.h) \
-    $(wildcard include/config/phys/addr/t/64bit.h) \
-  include/linux/module.h \
-    $(wildcard include/config/modules.h) \
-    $(wildcard include/config/sysfs.h) \
-    $(wildcard include/config/module/sig.h) \
-    $(wildcard include/config/modules/tree/lookup.h) \
-    $(wildcard include/config/unused/symbols.h) \
-    $(wildcard include/config/generic/bug.h) \
-    $(wildcard include/config/kallsyms.h) \
-    $(wildcard include/config/smp.h) \
-    $(wildcard include/config/tracepoints.h) \
-    $(wildcard include/config/tracing.h) \
-    $(wildcard include/config/event/tracing.h) \
-    $(wildcard include/config/ftrace/mcount/record.h) \
-    $(wildcard include/config/livepatch.h) \
-    $(wildcard include/config/module/unload.h) \
-    $(wildcard include/config/constructors.h) \
-    $(wildcard include/config/debug/set/module/ronx.h) \
-  include/linux/list.h \
-    $(wildcard include/config/debug/list.h) \
-  include/linux/poison.h \
-    $(wildcard include/config/illegal/pointer/value.h) \
-  include/uapi/linux/const.h \
-  include/linux/kernel.h \
-    $(wildcard include/config/preempt/voluntary.h) \
-    $(wildcard include/config/debug/atomic/sleep.h) \
-    $(wildcard include/config/mmu.h) \
-    $(wildcard include/config/prove/locking.h) \
-    $(wildcard include/config/panic/timeout.h) \
-  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
-  include/linux/linkage.h \
   include/linux/stringify.h \
   include/linux/export.h \
     $(wildcard include/config/have/underscore/symbol/prefix.h) \
+    $(wildcard include/config/modules.h) \
     $(wildcard include/config/modversions.h) \
+    $(wildcard include/config/unused/symbols.h) \
   arch/x86/include/asm/linkage.h \
     $(wildcard include/config/x86/64.h) \
     $(wildcard include/config/x86/alignment/16.h) \
+  include/linux/types.h \
+    $(wildcard include/config/have/uid16.h) \
+    $(wildcard include/config/uid16.h) \
+    $(wildcard include/config/arch/dma/addr/t/64bit.h) \
+    $(wildcard include/config/phys/addr/t/64bit.h) \
   include/linux/bitops.h \
   arch/x86/include/asm/bitops.h \
     $(wildcard include/config/x86/cmov.h) \
   arch/x86/include/asm/alternative.h \
+    $(wildcard include/config/smp.h) \
     $(wildcard include/config/paravirt.h) \
   arch/x86/include/asm/asm.h \
   arch/x86/include/asm/ptrace.h \
@@ -89,6 +70,7 @@ deps_/home/mcuevas/deviceDrivers/vt2/module2.o := \
   arch/x86/include/asm/segment.h \
     $(wildcard include/config/cc/stackprotector.h) \
     $(wildcard include/config/x86/32/lazy/gs.h) \
+  include/uapi/linux/const.h \
   arch/x86/include/asm/cache.h \
     $(wildcard include/config/x86/l1/cache/shift.h) \
     $(wildcard include/config/x86/internode/cache/shift.h) \
@@ -166,12 +148,31 @@ deps_/home/mcuevas/deviceDrivers/vt2/module2.o := \
     $(wildcard include/config/early/printk.h) \
     $(wildcard include/config/printk.h) \
     $(wildcard include/config/dynamic/debug.h) \
+  include/linux/init.h \
+    $(wildcard include/config/broken/rodata.h) \
+    $(wildcard include/config/lto.h) \
   include/linux/kern_levels.h \
   include/linux/cache.h \
     $(wildcard include/config/arch/has/cache/line/size.h) \
   include/uapi/linux/kernel.h \
   include/uapi/linux/sysinfo.h \
   include/linux/dynamic_debug.h \
+  include/linux/module.h \
+    $(wildcard include/config/sysfs.h) \
+    $(wildcard include/config/module/sig.h) \
+    $(wildcard include/config/modules/tree/lookup.h) \
+    $(wildcard include/config/generic/bug.h) \
+    $(wildcard include/config/kallsyms.h) \
+    $(wildcard include/config/tracepoints.h) \
+    $(wildcard include/config/event/tracing.h) \
+    $(wildcard include/config/livepatch.h) \
+    $(wildcard include/config/module/unload.h) \
+    $(wildcard include/config/constructors.h) \
+    $(wildcard include/config/debug/set/module/ronx.h) \
+  include/linux/list.h \
+    $(wildcard include/config/debug/list.h) \
+  include/linux/poison.h \
+    $(wildcard include/config/illegal/pointer/value.h) \
   include/linux/stat.h \
   arch/x86/include/uapi/asm/stat.h \
   include/uapi/linux/stat.h \
@@ -596,6 +597,123 @@ deps_/home/mcuevas/deviceDrivers/vt2/module2.o := \
     $(wildcard include/config/have/mod/arch/specific.h) \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
+  include/linux/slab.h \
+    $(wildcard include/config/debug/slab.h) \
+    $(wildcard include/config/failslab.h) \
+    $(wildcard include/config/slab.h) \
+    $(wildcard include/config/slub.h) \
+    $(wildcard include/config/slob.h) \
+  include/linux/kmemleak.h \
+    $(wildcard include/config/debug/kmemleak.h) \
+  include/linux/kasan.h \
+  include/linux/io.h \
+    $(wildcard include/config/have/arch/huge/vmap.h) \
+  include/linux/interrupt.h \
+    $(wildcard include/config/irq/forced/threading.h) \
+    $(wildcard include/config/generic/irq/probe.h) \
+  include/linux/irqreturn.h \
+  include/linux/irqnr.h \
+  include/uapi/linux/irqnr.h \
+  include/linux/hardirq.h \
+  include/linux/ftrace_irq.h \
+    $(wildcard include/config/ftrace/nmi/enter.h) \
+  include/linux/vtime.h \
+    $(wildcard include/config/virt/cpu/accounting/native.h) \
+    $(wildcard include/config/virt/cpu/accounting/gen.h) \
+    $(wildcard include/config/virt/cpu/accounting.h) \
+    $(wildcard include/config/irq/time/accounting.h) \
+  include/linux/context_tracking_state.h \
+    $(wildcard include/config/context/tracking.h) \
+  include/linux/static_key.h \
+  arch/x86/include/asm/hardirq.h \
+    $(wildcard include/config/x86/thermal/vector.h) \
+    $(wildcard include/config/x86/mce/threshold.h) \
+    $(wildcard include/config/x86/mce/amd.h) \
+    $(wildcard include/config/hyperv.h) \
+  include/linux/irq.h \
+    $(wildcard include/config/irq/domain/hierarchy.h) \
+    $(wildcard include/config/generic/pending/irq.h) \
+    $(wildcard include/config/hardirqs/sw/resend.h) \
+    $(wildcard include/config/generic/irq/legacy/alloc/hwirq.h) \
+    $(wildcard include/config/generic/irq/legacy.h) \
+  include/linux/irqhandler.h \
+  arch/x86/include/asm/irq.h \
+  arch/x86/include/asm/irq_regs.h \
+  include/linux/irqdesc.h \
+    $(wildcard include/config/irq/preflow/fasteoi.h) \
+    $(wildcard include/config/sparse/irq.h) \
+    $(wildcard include/config/handle/domain/irq.h) \
+  arch/x86/include/asm/hw_irq.h \
+    $(wildcard include/config/hpet/timer.h) \
+    $(wildcard include/config/dmar/table.h) \
+    $(wildcard include/config/ht/irq.h) \
+    $(wildcard include/config/x86/uv.h) \
+  include/linux/profile.h \
+    $(wildcard include/config/profiling.h) \
+  arch/x86/include/asm/sections.h \
+    $(wildcard include/config/debug/rodata.h) \
+  include/asm-generic/sections.h \
+  arch/x86/include/asm/uaccess.h \
+    $(wildcard include/config/x86/intel/usercopy.h) \
+    $(wildcard include/config/debug/strict/user/copy/checks.h) \
+  arch/x86/include/asm/smap.h \
+    $(wildcard include/config/x86/smap.h) \
+  arch/x86/include/asm/uaccess_64.h \
+  include/linux/hrtimer.h \
+    $(wildcard include/config/high/res/timers.h) \
+    $(wildcard include/config/time/low/res.h) \
+    $(wildcard include/config/timerfd.h) \
+  include/linux/timerqueue.h \
+  include/linux/of_address.h \
+    $(wildcard include/config/of/address.h) \
+  include/linux/of.h \
+    $(wildcard include/config/sparc.h) \
+    $(wildcard include/config/of/dynamic.h) \
+    $(wildcard include/config/attach/node.h) \
+    $(wildcard include/config/detach/node.h) \
+    $(wildcard include/config/add/property.h) \
+    $(wildcard include/config/remove/property.h) \
+    $(wildcard include/config/update/property.h) \
+    $(wildcard include/config/of/numa.h) \
+    $(wildcard include/config/no/change.h) \
+    $(wildcard include/config/change/add.h) \
+    $(wildcard include/config/change/remove.h) \
+    $(wildcard include/config/of/resolve.h) \
+    $(wildcard include/config/of/overlay.h) \
+  include/linux/mod_devicetable.h \
+  include/linux/uuid.h \
+  include/uapi/linux/uuid.h \
+  include/linux/property.h \
+  include/linux/fwnode.h \
+  include/linux/of_device.h \
+  include/linux/cpu.h \
+    $(wildcard include/config/pm/sleep/smp.h) \
+  include/linux/node.h \
+    $(wildcard include/config/memory/hotplug/sparse.h) \
+    $(wildcard include/config/hugetlbfs.h) \
+  include/linux/device.h \
+    $(wildcard include/config/debug/devres.h) \
+    $(wildcard include/config/generic/msi/irq/domain.h) \
+    $(wildcard include/config/pinctrl.h) \
+    $(wildcard include/config/generic/msi/irq.h) \
+    $(wildcard include/config/dma/cma.h) \
+    $(wildcard include/config/devtmpfs.h) \
+    $(wildcard include/config/sysfs/deprecated.h) \
+  include/linux/klist.h \
+  include/linux/pinctrl/devinfo.h \
+  include/linux/pinctrl/consumer.h \
+  include/linux/seq_file.h \
+  include/linux/pinctrl/pinctrl-state.h \
+  include/linux/ratelimit.h \
+  arch/x86/include/asm/device.h \
+    $(wildcard include/config/x86/dev/dma/ops.h) \
+    $(wildcard include/config/intel/iommu.h) \
+    $(wildcard include/config/amd/iommu.h) \
+  include/linux/pm_wakeup.h \
+  include/linux/platform_device.h \
+    $(wildcard include/config/suspend.h) \
+    $(wildcard include/config/hibernate/callbacks.h) \
+  include/linux/of_platform.h \
   include/linux/fs.h \
     $(wildcard include/config/fs/posix/acl.h) \
     $(wildcard include/config/security.h) \
@@ -650,13 +768,8 @@ deps_/home/mcuevas/deviceDrivers/vt2/module2.o := \
   include/uapi/linux/fcntl.h \
   arch/x86/include/uapi/asm/fcntl.h \
   include/uapi/asm-generic/fcntl.h \
-  arch/x86/include/asm/uaccess.h \
-    $(wildcard include/config/x86/intel/usercopy.h) \
-    $(wildcard include/config/debug/strict/user/copy/checks.h) \
-  arch/x86/include/asm/smap.h \
-    $(wildcard include/config/x86/smap.h) \
-  arch/x86/include/asm/uaccess_64.h \
+  include/linux/cdev.h \
 
-/home/mcuevas/deviceDrivers/vt2/module2.o: $(deps_/home/mcuevas/deviceDrivers/vt2/module2.o)
+/home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.o: $(deps_/home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.o)
 
-$(deps_/home/mcuevas/deviceDrivers/vt2/module2.o):
+$(deps_/home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.o):

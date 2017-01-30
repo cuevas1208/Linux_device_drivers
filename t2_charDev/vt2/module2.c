@@ -5,6 +5,11 @@
 #include <linux/string.h>    /* Needed by all modules */
 #include <asm/uaccess.h>    /* Needed by all modules */
 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Manuel Cuevas");    ///< The author -- visible when you use modinfo
+MODULE_DESCRIPTION("A simple Linux char driver");  ///see modinfo
+MODULE_VERSION("0.1");            ///< A version number to inform users
+
 //some variables
 static char ker_buf[100];
 static int currLen = 0;
@@ -48,7 +53,7 @@ static ssize_t dev_read(struct file *fil, char *buf, size_t len, loff_t *off)
 {
     printk(KERN_ALERT "Reading device rx: %d/n", len);
     copy_to_user(buf,ker_buf,currLen);
-    return 0;
+    return currLen;
 }
 
 static ssize_t dev_write(struct file *fil,const char *buf, size_t len, loff_t *off)
@@ -70,4 +75,3 @@ static int dev_release(struct inode *inod, struct file *fil)
 
 module_init(init_hello);
 module_exit(exit_hello);
-

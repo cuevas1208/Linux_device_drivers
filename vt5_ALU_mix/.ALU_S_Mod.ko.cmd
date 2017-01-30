@@ -1,0 +1,1 @@
+cmd_/home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.ko /home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.o /home/mcuevas/Linux_device_drivers/vt5_ALU_mix/ALU_S_Mod.mod.o
